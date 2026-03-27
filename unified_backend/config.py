@@ -22,7 +22,8 @@ CORS_ORIGINS = os.getenv("CORS_ORIGINS", "*").split(",")
 # Model IDs
 DETR_MODEL = "facebook/detr-resnet-50"
 VIT_MODEL = "google/vit-base-patch16-224"
-LLM_MODEL = "meta-llama/Llama-3.2-3B-Instruct"
+LLM_MODEL = "Qwen/Qwen2.5-7B-Instruct"
+
 
 # Timeout Configuration
 API_TIMEOUT = float(os.getenv("API_TIMEOUT", "45.0"))
